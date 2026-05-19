@@ -9,7 +9,7 @@ import {
   Database,
   Search
 } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils.ts";
 
 interface SidebarProps {
   className?: string;

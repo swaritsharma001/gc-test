@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "sonner";
-import Landing from "./pages/Landing";
-import Login from "./pages/Login";
-import Terms from "./pages/Terms";
-import Dashboard from "./pages/Dashboard";
-import BotManagement from "./pages/BotManagement";
-import Commands from "./pages/Commands";
-import Navbar from "./components/layout/Navbar";
-import Footer from "./components/layout/Footer";
+import Landing from "./pages/Landing.tsx";
+import Login from "./pages/Login.tsx";
+import Terms from "./pages/Terms.tsx";
+import Dashboard from "./pages/Dashboard.tsx";
+import BotManagement from "./pages/BotManagement.tsx";
+import Commands from "./pages/Commands.tsx";
+import Navbar from "./components/layout/Navbar.tsx";
+import Footer from "./components/layout/Footer.tsx";
 
 export default function App() {
   const [theme, setTheme] = useState<"dark" | "light">(() => {
