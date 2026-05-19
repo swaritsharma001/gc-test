@@ -15,11 +15,11 @@ import {
   Code2,
   ArrowRight
 } from "lucide-react";
-import { Input } from "@/components/ui/input.tsx";
+import { Input } from "@/components/ui/input";
 import { motion } from "motion/react";
-import { Badge } from "@/components/ui/badge.tsx";
-import { ScrollArea } from "@/components/ui/scroll-area.tsx";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs.tsx";
+import { Badge } from "@/components/ui/badge";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface CommandItem {
   name: string;

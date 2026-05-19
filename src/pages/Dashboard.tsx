@@ -14,10 +14,10 @@ import {
   Search,
   Plus
 } from "lucide-react";
-import { Button } from "@/components/ui/button.tsx";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card.tsx";
-import { Badge } from "@/components/ui/badge.tsx";
-import { Input } from "@/components/ui/input.tsx";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
 import { toast } from "sonner";
 import {
@@ -25,7 +25,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu.tsx";
+} from "@/components/ui/dropdown-menu";
 
 type BotStatus = "running" | "stopped" | "banned";
 
